@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Nav-bar {
+  background-color: rgb(243, 241, 241);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  min-height: 20px;
+  padding: 8px;
+}
+
+                      /* Section 02 */
+
+.sec2A {
+  background-image: url('./assets/bg-masthead.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.input-comp {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+                        /* Section 03 */
+
+.sec3A {
+  display: flex;
+  background-color: rgb(243, 241, 241);
+  min-height: 200px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  /* justify-content: center; */
+
+}
+
+                /* Section 04 */
+.sec4A {
+  max-height: 600px;
+  background-color: bisque;
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  /* align-items: center; */
+}
+
+.sec4-pict {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+
+}
+
+                /* Section 05 */
+
+.sec5A {
+  background-color: rgb(243, 241, 241);
+  min-height: 200px;
+  padding-top: 40px;
+}
+
+.sec5B {
+  margin-top: 40px;
+  border-radius: 50%;
+}
+
+            /* Section Bottom */
+
+.bottomA {
+
+  background-color: rgb(243, 241, 241);
+  min-height: 100px;
+}
+
+.bottomA {
+    text-align: left;
+    justify-content: center;
+ 
+}
+.bottomB ul {
+  list-style: none;
+}
+
+.bottomB ul li {
+
+ display: inline;
+ padding: 15px;
+}
+
+.btn-style {
+
+  all:unset;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
